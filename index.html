@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Banana Clicker 0 Coins</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div id="Top">
+        <h1 id="CoinTekst">Bananas: 0!</h1>
+        <br>
+        <img id="BananaButton" onclick="add()" src="Images/lol.png" alt="Banana" width="400" height="300">
+        <br><br>
+        <p id="autoclickerText">You have 0 autoclicker(s)</p>
+        <br>
+        <a class="Button" id="Save" onclick="save()">Save Data (this will delete your old saves)</a>
+        <br><br>
+        <a class="Button" id="Load" onclick="load()">Load Data (if your current game is not saved it will be deleted)</a>
+      </div>
+    </header>
+    <main>
+      <div id="shop">
+        <h1>↓ Shop ↓</h1>
+        <p>You can scroll down</p>
+        <br>
+        <a id="AutoclickerKnop" onclick="koopAutoClicker()" class="Button">Buy autoclicker (every 1 second) | 50 Bananas</a>
+        <br><br>
+        <button class="Button" id="monkey" onclick="monkeyBuy()">Buy monkey (this makes that every time you click you get +1!) | 5000 Bananas</a>
+        <br><br>
+      </div>
+    </main>
+    <footer>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
